@@ -39,3 +39,8 @@
 .email-house {
   display: flex;
 }
+
+.radio {
+  display: flex;
+  flex-direction: column;
+}
