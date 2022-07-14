@@ -29,7 +29,7 @@ body {
   justify-content: center;
 }
 
-#email, #senha, #btn-entrar {
+#email , #senha , #btn-entrar {
   height: 30px;
   width: 130px;
   border: none;
@@ -90,7 +90,7 @@ body {
   height: 100px;
 }
 
-.checkbox label, .radio label {
+.checkbox label , .radio label {
   margin: 5px;
 }
 
@@ -100,7 +100,7 @@ body {
   margin-top: 15px;
 }
 
-#input-name, #input-lastname, #input-email, #house {
+#input-name , #input-lastname , #input-email , #house {
   border: none;
   border-radius: 5px;
   width: 300px;
