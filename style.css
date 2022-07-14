@@ -151,6 +151,16 @@ body {
   background-color: rgba(128, 0, 128, 0.8);
 }
 
+#submit-btn:disabled {
+  background-color: rgba(128, 0, 128, 0.3);
+}
+
+#counter {
+  color: purple;
+  display: flex;
+  transform: translate(670px, -25px)
+}
+
 footer {
   text-align: center;
   background-color: rgb(68, 62, 62);
