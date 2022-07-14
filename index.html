@@ -136,7 +136,9 @@
                 <label class="textarea">
                     Deixe seu comentário:
                     <br>
-                    <textarea name="textarea" id="textarea" maxlength="500"></textarea>
+                    <textarea name="textarea" id="textarea" maxlength="500" onkeydown="contador()">
+                </textarea>
+                    <span id="counter">500</span>
                 </label>
             </div>
             <div>
@@ -152,27 +154,6 @@
         <div>
             <img src="images/trybewarts-colored.svg" alt="brasão" id="trybewarts-forms-logo" />
         </div>
-        <div>
-            <label class="textarea">
-                Deixe seu comentário:
-                <textarea name="textarea" id="textarea" maxlength="500" onkeydown="contador()">
-                </textarea>
-                <span id="counter">500</span>
-            </label>
-        </div>
-        <div>
-            <label id="label-infos">
-                <input type="checkbox" name="agreement" id="agreement">
-                Você concorda com o uso das informações acima?
-            </label>
-        </div>
-        <div>
-            <button type="submit" id="submit-btn" disabled>Enviar</button>
-        </div>
-      </form>
-      <div>
-        <img src="images/trybewarts-colored.svg" alt="brasão" id="trybewarts-forms-logo">
-      </div>
     </main>
     <footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>
