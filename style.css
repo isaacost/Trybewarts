@@ -79,19 +79,13 @@ body {
 
 .checkbox {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   margin-left: 70px;
-}
-
-.conteudos {
-  display: flex;
-  flex-flow: column wrap;
-  margin-left: 70px;
-  height: 100px;
+  width: 350px;
 }
 
 .checkbox label , .radio label {
-  margin: 5px;
+  margin: 15px;
 }
 
 #formulario {
@@ -119,6 +113,7 @@ body {
   display: flex;
   margin-top: 15px;
   margin-bottom: 15px;
+  justify-content: space-between;
 }
 
 #avaliacao {
