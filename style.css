@@ -54,6 +54,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 #evaluation-form {
@@ -70,6 +71,7 @@ body {
 
 .email-house {
   display: flex;
+  margin-bottom: 15px;
 }
 
 .radio {
@@ -111,8 +113,7 @@ body {
 
 #radio-checkbox {
   display: flex;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
   justify-content: space-between;
 }
 
@@ -140,6 +141,7 @@ body {
   width: 700px;
   border: none;
   margin: 5px;
+  margin-bottom: 50px;
   border-radius: 5px;
   background-color: purple;
   color: white;
