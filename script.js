@@ -30,3 +30,26 @@ function contador() {
 input.addEventListener('change', disabledButton);
 btnEntrar.addEventListener('click', validation);
 textarea.addEventListener('keyup', contador);
+
+const name = document.getElementById('input-name');
+const lastName = document.getElementById('input-lastname');
+const emailForm = document.getElementById('input-email');
+const house = document.getElementById('house');
+const family = document.querySelector('input[name = "family"]:checked');
+const content = document.querySelector('input[name = "content"]:checked');
+const avaluation = document.querySelector('input[name = "rate"]:checked');
+
+function getData() {
+  const objeto = [
+    { question: 'Nome completo', answer: `${name.value} ${lastName.value}` },
+    { question: 'E-mail', answer: emailForm.value },
+    { question: 'Casa', answer: house.value },
+    { question: 'Família', answer: family.innerText },
+    { question: 'Quer aprender:', answer: content.innerText },
+    { question: 'Avaliação', answer: avaluation.innerText },
+  ];
+
+  console.log(objeto);
+}
+
+button.addEventListener('click', getData);
