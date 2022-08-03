@@ -28,7 +28,7 @@
       </form>
     </header>
     <h1 id="formulario">Formulário de Avaliação</h1>
-    <main class="main">
+    <main class="main" id="main-form">
       <form id="evaluation-form">
         <div>
           <input type="name" name="name" placeholder="Nome" id="input-name" />
@@ -130,43 +130,43 @@
         <div id="avaliacao">
           <label id="label-rate"> Como você avalia a Trybewarts? </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="1" class="valor" />
             1
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="2" class="valor" />
             2
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="3" class="valor" />
             3
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="4" class="valor" />
             4
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="5" class="valor" />
             5
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="6" class="valor" />
             6
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="7" class="valor" />
             7
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="8" class="valor" />
             8
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="9" class="valor" />
             9
           </label>
           <label>
-            <input type="radio" name="rate" value="rate" class="valor" />
+            <input type="radio" name="rate" value="10" class="valor" />
             10
           </label>
         </div>
@@ -194,6 +194,15 @@
           alt="brasão"
           id="trybewarts-forms-logo"
         />
+      </div>
+    </main>
+    <main id="feedback-area" class="hidden">
+      <div class="main-column">
+        <h2>Obrigado por preencher o formulário.</h2>
+        <ul id="form-data"></ul>
+      </div>
+      <div class="main-column">
+        <img src="images/trybewarts-colored.svg" alt="brasão" id="trybewarts-forms-logo"/>
       </div>
     </main>
     <footer>Direitos reservados à Trybewarts©</footer>

@@ -57,6 +57,12 @@ body {
   margin-top: 15px;
 }
 
+.main-column img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
@@ -165,4 +171,12 @@ footer {
   text-align: center;
   background-color: rgb(68, 62, 62);
   color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#form-data li {
+  margin-bottom: 1rem;
 }
